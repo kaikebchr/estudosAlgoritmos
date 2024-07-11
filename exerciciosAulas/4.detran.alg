@@ -3,6 +3,7 @@ var
     nascimento, ano, idade: inteiro
     apto: logico
     nome: caractere
+    
 inicio
     escreval("Teste de Aptidão de Habilitação - DETRAN.")
     escreval("")

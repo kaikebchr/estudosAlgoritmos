@@ -1,10 +1,8 @@
 algoritmo "aptidaoHabilitacao"
 var
-
-nasc, ano, idade: Inteiro
+   nasc, ano, idade: inteiro
 
 inicio
-
    escreva("Digite seu ano de nascimento: ")
    leia(nasc)
    escreva("Agora digite o ano em que estamos: ")

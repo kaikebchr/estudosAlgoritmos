@@ -1,11 +1,8 @@
 algoritmo "parImpar"
-
 var
-
-num: Inteiro
+   num: inteiro
 
 inicio
-
    escreva("Digite um número qualquer: ")
    leia(num)
 

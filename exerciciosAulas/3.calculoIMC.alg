@@ -1,9 +1,8 @@
 algoritmo "calculoIMC"
-
 var
-   peso, alt, imc: Real
-inicio
+   peso, alt, imc: real
 
+inicio
    escreva("Digite seu peso: ")
    leia(peso)
    escreva("Agora, digite sua altura: ")
