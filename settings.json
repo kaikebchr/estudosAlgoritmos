@@ -30,5 +30,5 @@
     "editor.minimap.enabled": false,
     "symbols.hidesExplorerArrows": false,
     "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.enabled": false
 }
