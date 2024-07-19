@@ -9,6 +9,7 @@
     "editor.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "editor.lineHeight": 1.5,
+    // "editor.fontFamily": "Space Mono",
     "editor.fontFamily": "JetBrains Mono",
     "scm.inputFontFamily": "JetBrains Mono",
     "chat.editor.fontFamily": "JetBrains Mono",
@@ -30,5 +31,6 @@
     "symbols.hidesExplorerArrows": false,
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.statusBar.visible": false    
+    "workbench.statusBar.visible": false,
+    "editor.stickyScroll.enabled": false    
 }
