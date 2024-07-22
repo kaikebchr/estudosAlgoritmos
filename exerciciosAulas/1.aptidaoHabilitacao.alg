@@ -1,19 +1,20 @@
-algoritmo "aptidaoHabilitacao"
+algoritmo "aptoDirigir"
+// O programa pergunta ao usuário sua idade e ano de nascimento
+// e o diz se está apto a tirar a habilitação ou não.
+
 var
-   nasc, ano, idade: inteiro
+   anoAt, idade, anoNasc: inteiro
 
 inicio
-   escreva("Digite seu ano de nascimento: ")
-   leia(nasc)
-   escreva("Agora digite o ano em que estamos: ")
-   leia(ano)
-
-   idade <- ano - nasc
-
+   escreva("Olá, por gentileza digite o ano atual: ")
+   leia(anoAt)
+   escreva("\nObrigado! Agora digite seu ano de nascimento: ")
+   leia(anoNasc)
+   idade <- (anoAt - anoNasc)
    se (idade >= 18) entao
-      escreval("Parabéns, você tem ", idade, " anos e já pode tirar a habilitação.")
+      escreval("\n\nVocê já tem ", idade, " e está apto ao teste de habilitação.")
    senao
-      escreval("Você tem ", idade, " anos e ainda não pode tirar a habilitação.")
+      escreval("\n\nVocê ainda não pode fazer o teste de habilitação, pois ainda tem ", idade, " anos.")
    fimse
 
 fimalgoritmo
